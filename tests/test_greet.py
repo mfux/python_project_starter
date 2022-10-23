@@ -1,10 +1,5 @@
-import lol
+import wsboyt
 
 
-def test_increment():
-    r = lol.hi()
-    assert "e" in r
-
-
-def test_decrement():
-    assert 4 == 4
+def test_main():
+    assert "hello worl" in wsboyt.main()

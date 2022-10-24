@@ -10,7 +10,6 @@ source .env/bin/activate
 # update pip in venv
 python -m pip install --upgrade pip
 
-
 # install packaged src code 
 pip install --editable .
 # puts references to src code in env/lib/python3.9/site-packages/main.egg-link

@@ -1,5 +1,5 @@
-import wsboyt
+import pythonprojectstarter
 
 
 def test_main():
-    assert "hello worl" in wsboyt.main()
+    assert "hello worl" in pythonprojectstarter.main()
